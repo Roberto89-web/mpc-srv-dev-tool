@@ -1,6 +1,6 @@
-# MCP ERP Customization Server
+# MCP Server per supporto dev
 
-Server MCP per assistere lo sviluppo di personalizzazioni.
+Server MCP per assistere lo sviluppo con riferimenti a documentazioni e repo pubbliche.
 Costruito con Spring Boot + Spring AI.
 
 ---
