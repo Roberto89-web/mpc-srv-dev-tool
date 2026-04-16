@@ -1,4 +1,4 @@
-# MCP Server per supporto dev
+# MCP Server - DevSupport
 
 Server MCP per assistere lo sviluppo con riferimenti a documentazioni e repo pubbliche.
 Costruito con Spring Boot + Spring AI.
