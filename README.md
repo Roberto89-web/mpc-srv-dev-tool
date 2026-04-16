@@ -137,13 +137,13 @@ GITHUB_TOKEN=ghp_xxxx java -jar target/mcp-erp-server.jar
 
 ---
 ## Screenshot esempio
-![Screenshot1](https://github.com/Roberto89-web/mcp-erp-server/blob/413e9f5380ed97a07af6145e1ff3c190908544b3/images/Screenshot1.png)
-![Screenshot2](https://github.com/Roberto89-web/mcp-erp-server/blob/413e9f5380ed97a07af6145e1ff3c190908544b3/images/Screenshot2.png)
-![Screenshot3](https://github.com/Roberto89-web/mcp-erp-server/blob/413e9f5380ed97a07af6145e1ff3c190908544b3/images/Screenshot3.png)
-![Screenshot4](https://github.com/Roberto89-web/mcp-erp-server/blob/413e9f5380ed97a07af6145e1ff3c190908544b3/images/Screenshot4.png)
-![Screenshot5](https://github.com/Roberto89-web/mcp-erp-server/blob/413e9f5380ed97a07af6145e1ff3c190908544b3/images/Screenshot5.png)
-![Screenshot6](https://github.com/Roberto89-web/mcp-erp-server/blob/413e9f5380ed97a07af6145e1ff3c190908544b3/images/Screenshot6.png)
-![Screenshot7](https://github.com/Roberto89-web/mcp-erp-server/blob/413e9f5380ed97a07af6145e1ff3c190908544b3/images/Screenshot7.png)
+![Screenshot1](https://github.com/Roberto89-web/mcp-srv-dev-tool/blob/bb9b42145f11b1269c8d75d9e0caea60348fbb97/images/Screenshot1.png)
+![Screenshot2](https://github.com/Roberto89-web/mcp-srv-dev-tool/blob/bb9b42145f11b1269c8d75d9e0caea60348fbb97/images/Screenshot2.png)
+![Screenshot3](https://github.com/Roberto89-web/mcp-srv-dev-tool/blob/bb9b42145f11b1269c8d75d9e0caea60348fbb97/images/Screenshot3.png)
+![Screenshot4](https://github.com/Roberto89-web/mcp-srv-dev-tool/blob/bb9b42145f11b1269c8d75d9e0caea60348fbb97/images/Screenshot4.png)
+![Screenshot5](https://github.com/Roberto89-web/mcp-srv-dev-tool/blob/bb9b42145f11b1269c8d75d9e0caea60348fbb97/images/Screenshot5.png)
+![Screenshot6](https://github.com/Roberto89-web/mcp-srv-dev-tool/blob/bb9b42145f11b1269c8d75d9e0caea60348fbb97/images/Screenshot6.png)
+![Screenshot7](https://github.com/Roberto89-web/mcp-srv-dev-tool/blob/bb9b42145f11b1269c8d75d9e0caea60348fbb97/images/Screenshot7.png)
 
 ---
 
