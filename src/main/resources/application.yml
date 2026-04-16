@@ -1,0 +1,40 @@
+spring:
+  main:
+    # Disabilita il banner ASCII di Spring sul boot (va su stdout e rompe MCP)
+    banner-mode: off
+    # Silenzia i log di avvio
+    log-startup-info: false
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+  ai:
+    mcp:
+      server:
+        name: erp-customization-assistant
+        version: 1.0.0
+        # STDIO: usato da Claude Desktop e VSCode Copilot
+        transport: stdio
+
+# Percorso base dove si trovano i file .md della documentazione
+erp:
+  docs:
+    base-path: ${user.home}/erp-docs
+  templates:
+    base-path: classpath:templates
+
+# GitHub API — token opzionale per aumentare il rate limit da 60 a 5000 req/ora
+# Genera un token su: https://github.com/settings/tokens (scope: public_repo)
+# Lascia vuoto per usare l'API pubblica (60 req/ora, ricerca codice non disponibile)
+github:
+  token: ${GITHUB_TOKEN:}
+
+# Utilizzando Claude con il metodo STDIO è necessario spegnere ogni output su stdout vedi logback-spring.xml
+# possibile che questa cosa cambi nelle nuove versioni
+logging:
+  pattern:
+    console:
+  level:
+    root: INFO
+    org.springframework.ai.mcp: DEBUG
+server:
+  port: 0

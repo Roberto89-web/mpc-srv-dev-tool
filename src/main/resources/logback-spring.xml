@@ -1,0 +1,26 @@
+<configuration>
+
+    <!--
+        IMPORTANTE per MCP con trasporto STDIO:
+        Claude Desktop comunica col server tramite stdout.
+        Qualsiasi testo non-MCP su stdout rompe il protocollo.
+        Qui reindirizziamo TUTTO su stderr, che Claude Desktop ignora.
+    -->
+
+    <appender name="STDERR" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.err</target>
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Silenzia i log più verbosi di Spring al boot -->
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.springframework.ai" level="WARN"/>
+    <logger name="com.erp" level="INFO"/>
+
+    <root level="WARN">
+        <appender-ref ref="STDERR"/>
+    </root>
+
+</configuration>
